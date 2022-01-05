@@ -40,12 +40,6 @@
                                 <color key="textColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MMMCMXCIX" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8a1-5B-wGT">
-                                <rect key="frame" x="66" y="235.5" width="243" height="43"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="36"/>
-                                <color key="textColor" red="0.20000000000000001" green="0.40000000000000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DhT-nH-q8P">
                                 <rect key="frame" x="40" y="557" width="48" height="70"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="48"/>
@@ -86,20 +80,19 @@
                             <constraint firstItem="aq6-tM-iaS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q55-gB-AVW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="h9Y-41-ea3" secondAttribute="bottom" constant="40" id="SFu-km-aM7"/>
                             <constraint firstItem="42e-4e-K8e" firstAttribute="top" secondItem="fAa-zo-JQH" secondAttribute="bottom" constant="30" id="XoG-CL-FYR"/>
-                            <constraint firstItem="8a1-5B-wGT" firstAttribute="top" secondItem="aq6-tM-iaS" secondAttribute="bottom" constant="20" id="ZY8-HL-Z3E"/>
+                            <constraint firstAttribute="top" secondItem="aq6-tM-iaS" secondAttribute="bottom" constant="20" id="ZY8-HL-Z3E"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h9Y-41-ea3" secondAttribute="trailing" constant="40" id="cNO-Xt-ea8"/>
                             <constraint firstItem="fAa-zo-JQH" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="200" id="e9E-40-khb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DhT-nH-q8P" secondAttribute="bottom" constant="40" id="goP-ne-a8Z"/>
                             <constraint firstItem="h9Y-41-ea3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="DhT-nH-q8P" secondAttribute="trailing" constant="100" id="pte-di-tkL"/>
                             <constraint firstItem="aq6-tM-iaS" firstAttribute="top" secondItem="p7w-bb-xaM" secondAttribute="bottom" constant="20" id="rjm-bb-9JP"/>
-                            <constraint firstItem="8a1-5B-wGT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wtr-EG-cX4"/>
+                            <constraint firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wtr-EG-cX4"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="converterLabel" destination="aq6-tM-iaS" id="S54-J9-xzo"/>
                         <outlet property="falseButton" destination="DhT-nH-q8P" id="VJi-UZ-dt8"/>
                         <outlet property="numberLabel" destination="p7w-bb-xaM" id="vVH-rc-0YG"/>
-                        <outlet property="romanNumeralLabel" destination="8a1-5B-wGT" id="ElF-2y-vlX"/>
                         <outlet property="scoreLabel" destination="fAa-zo-JQH" id="RAq-RR-IvT"/>
                         <outlet property="trueButton" destination="h9Y-41-ea3" id="s6d-69-flC"/>
                         <segue destination="1Hs-z8-UIy" kind="presentation" identifier="gameDoneSegue" id="jWw-sO-ahN"/>
