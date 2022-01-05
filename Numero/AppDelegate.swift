@@ -37,6 +37,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //Also in this
    ///MARK:- 
     
+
+//    This a comment
+//    var x = 12
+//    let y = 5
+
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
     return true
